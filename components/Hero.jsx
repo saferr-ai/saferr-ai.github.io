@@ -8,7 +8,7 @@ import Link from "next/link";
 import PillarsSection from "@/components/Explain";
 export default function Hero() {
   return (
-    <div className="w-full h-[130%]  md:h-full  relative p-0 overflow-hidden box-border">
+    <div className="w-full h-[200%]  md:h-full  relative p-0 overflow-hidden box-border">
       <div className="relative  h-full z-0">
         <Image
           src="/bg6.jpg"
