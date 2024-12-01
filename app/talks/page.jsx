@@ -1,12 +1,10 @@
 import React from "react";
-
+import { AppleCardsCarouselDemo} from "@/components/Cards"
 
 const Page  = () => {
 
     return (
-        <div>
-            Talks Page
-        </div>
+        <AppleCardsCarouselDemo></AppleCardsCarouselDemo>
     )
 }
 
