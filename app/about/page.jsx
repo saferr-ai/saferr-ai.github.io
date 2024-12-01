@@ -33,7 +33,7 @@ const people = [
 export default function About() {
     return (
         <div className="bg-background relative ">
-            <div className="max-w-7xl mx-auto  py-36  gap-6 flex md:flex-row flex-col justify-center items-center">
+            <div className="max-w-7xl mx-auto  py-36 px-4 gap-6 flex md:flex-row flex-col justify-center items-center">
                 <div className="md:w-1/2 flex justify-center" >
                     <Image src={"/amritpic.jpg"} className="rounded-lg w-auto " width={300} height={300} ></Image>
                 </div>
