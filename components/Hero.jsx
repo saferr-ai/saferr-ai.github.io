@@ -8,14 +8,14 @@ import Link from "next/link";
 import PillarsSection from "@/components/Explain";
 export default function Hero() {
   return (
-    <div className="w-full h-[200%]  md:h-full  relative p-0 overflow-hidden box-border">
+    <div className="w-full h-full  relative p-0  box-border">
       <div className="relative  h-full z-0">
         <Image
           src="/bg6.jpg"
           width={3840}
           height={2160}
           priority
-          className="w-full h-full object-fit"
+          className="w-full h-[150%] md:h-full object-fit"
         />
       </div>
       <div className="absolute top-0  left-0 w-full  flex flex-col items-start  md:items-center justify-center px-4 md:px-0">
@@ -46,7 +46,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}>
-          <Link href={"/home"} >
+          <Link href={"/research"} >
             <ExploreButton />
           </Link>
         </motion.div>

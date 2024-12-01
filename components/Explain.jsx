@@ -3,7 +3,7 @@ import { delay, motion } from "framer-motion";
 
 export default function PillarsSection() {
   return (
-    <section className="    mt-3 rounded-2xl flex flex-col justify-start items-start px-4">
+    <section className="  mt-3 rounded-2xl flex flex-col justify-center items-center px-4">
       {/* Section Heading */}
 
       <div className="max-w-7xl mx-auto my-6">
@@ -38,7 +38,7 @@ export default function PillarsSection() {
           <div className="grid   grid-cols-1 md:grid-cols-3 gap-8 overflow-x-auto   ">
             {/* Safety Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center snap-start flex-shrink-0   w-80 md:w-auto"
+              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center     w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
@@ -54,7 +54,7 @@ export default function PillarsSection() {
 
             {/* Reliability Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center snap-start flex-shrink-0 w-80 md:w-auto"
+              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center   w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
@@ -70,7 +70,7 @@ export default function PillarsSection() {
 
             {/* Robustness Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center snap-start flex-shrink-0 w-80 md:w-auto"
+              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center  w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
