@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-background sticky isolate text-foreground  top-0 z-50">
-            <div className=" absolute  w-full bg-background  border border-foreground">
+            <div className=" absolute  w-full bg-background  ">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center py-4">
                         {/* Logo */}
