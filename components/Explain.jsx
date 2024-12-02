@@ -35,7 +35,7 @@ export default function PillarsSection() {
           }}
         >
           {/* Horizontal Scrolling on Mobile */}
-          <div className="grid   grid-cols-1 md:grid-cols-3 gap-8 overflow-x-auto   ">
+          <div className="grid   grid-cols-1 md:grid-cols-3 gap-8    ">
             {/* Safety Card */}
             <motion.div
               className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center     w-auto"
