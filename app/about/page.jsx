@@ -36,7 +36,7 @@ export default function About() {
             <div className="w-screen h-20"></div>
             <div className="max-w-7xl mx-auto  bg-[#C7E8CA] my-4 rounded-2xl py-20 px-5 gap-6 flex md:flex-row flex-col justify-center items-center">
                 <div className="md:w-1/3 flex justify-center" >
-                    <Image src={"/amritpic.jpg"} className="rounded-lg w-64  " width={300} height={300} ></Image>
+                    <Image src={"/amritpic.jpg"} className="rounded-lg w-64  " priority width={300} height={300} ></Image>
                 </div>
 
                 <div className="md:w-2/3 " >
