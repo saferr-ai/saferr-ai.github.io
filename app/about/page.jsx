@@ -12,7 +12,7 @@ const people = [
         linkedinUrl: '#',
     },
     {
-        name: 'Prashant ',
+        name: 'Prashant Trivedi',
         role: 'Post Doc',
         imageUrl:
             'https://media.licdn.com/dms/image/v2/D4D03AQG1cVuJrtMdrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667656459333?e=1738800000&v=beta&t=MUBi5jpq-kGgZ3SSc8lV4BKO85ZcAGiwMPDCXhhmp2o',
@@ -33,12 +33,13 @@ const people = [
 export default function About() {
     return (
         <div className="bg-background relative ">
-            <div className="max-w-7xl mx-auto  py-24 px-5 gap-6 flex md:flex-row flex-col justify-center items-center">
-                <div className="md:w-1/2 flex justify-center" >
-                    <Image src={"/amritpic.jpg"} className="rounded-lg w-auto " width={300} height={300} ></Image>
+            <div className="w-screen h-20"></div>
+            <div className="max-w-7xl mx-auto  bg-[#C7E8CA] my-4 rounded-2xl py-20 px-5 gap-6 flex md:flex-row flex-col justify-center items-center">
+                <div className="md:w-1/3 flex justify-center" >
+                    <Image src={"/amritpic.jpg"} className="rounded-lg w-64  " width={300} height={300} ></Image>
                 </div>
 
-                <div className="md:w-1/2 " >
+                <div className="md:w-2/3 " >
                     <h1 className="text-foreground text-4xl mb-5">
                         Principal Investigator
                     </h1>
@@ -52,7 +53,7 @@ export default function About() {
             </div>
 
 
-            <section className="bg-[#ECE3CE] py-24 sm:py-24">
+            <section className="bg-background py-24 sm:py-24">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
                     <div className="text-center">
@@ -67,14 +68,14 @@ export default function About() {
 
                     <ul
                         role="list"
-                        className="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+                        className="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-1 lg:mx-0  place-items-center items-center lg:max-w-none lg:grid-cols-5"
                     >
                         {people.map((person) => (
                             <li key={person.name}>
-                                <img alt="" src={person.imageUrl} className="aspect-[3/2] w-full rounded-2xl object-cover" />
-                                <h3 className="mt-6 text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
+                                <img alt="" src={person.imageUrl} className="aspect-[3/2] w-48 rounded-2xl object-cover" />
+                                <h3 className="mt-2 text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
                                 <p className="text-base/7 text-gray-600">{person.role}</p>
-                                <ul role="list" className="mt-6 flex gap-x-6">
+                                <ul role="list" className="mt-1 flex gap-x-6">
                                     <li>
                                         <a href={person.xUrl} className="text-gray-400 hover:text-gray-500">
                                             <span className="sr-only">X</span>
