@@ -126,7 +126,7 @@ export default function About() {
 
             <section className="bg-[#cedbdb] py-4">
                 <h1 className="text-center text-3xl py-5 text-black">
-                    Visiting Students Students
+                    Visiting Students 
                 </h1>
                 <ul
                     role="list"
