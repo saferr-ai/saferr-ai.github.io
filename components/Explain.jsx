@@ -38,7 +38,7 @@ export default function PillarsSection() {
           <div className="grid   grid-cols-1 md:grid-cols-3 gap-8    ">
             {/* Safety Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center     w-auto"
+              className="bg-background  border-2 border-black  rounded-2xl p-6 flex flex-col items-center     w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
@@ -54,7 +54,7 @@ export default function PillarsSection() {
 
             {/* Reliability Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center   w-auto"
+              className="bg-background border-2 border-black  rounded-2xl p-6 flex flex-col items-center   w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
@@ -70,7 +70,7 @@ export default function PillarsSection() {
 
             {/* Robustness Card */}
             <motion.div
-              className="bg-background shadow-md rounded-2xl p-6 flex flex-col items-center  w-auto"
+              className="bg-background border-2 border-black rounded-2xl p-6 flex flex-col items-center  w-auto"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },

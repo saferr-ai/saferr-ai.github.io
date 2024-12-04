@@ -10,13 +10,13 @@ export default function Hero() {
   return (
     <div className="w-full h-full  relative p-0  box-border">
       <div className="relative  h-full z-0">
-        <Image
+        {/* <Image
           src="/bg6.jpg"
           width={3840}
           height={2160}
           priority
           className="w-full h-[150%] md:h-full object-fit"
-        />
+        /> */}
       </div>
       <div className="absolute top-0  left-0 w-full  flex flex-col items-start  md:items-center justify-center px-4 md:px-0">
         <motion.h3

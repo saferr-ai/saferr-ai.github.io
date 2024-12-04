@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const links = [
     { href: "/research/", label: "Research" },
     { href: "/news/", label: "News" },
-    { href: "/about/", label: "About" },
-    { href: "/contact/", label: "Contact" },
+    { href: "/people/", label: "People" },
+    { href: "/joinus/", label: "Join Us" },
 ];
 
 const Navbar = () => {
@@ -22,8 +22,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-background sticky isolate text-foreground  top-0 z-50">
-            <div className=" absolute  w-full bg-background  ">
+        <nav className="bg-background sticky isolate text-foreground  border  top-0 z-50">
+            <div className=" absolute  w-full bg-background border border-black ">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center py-4">
                         {/* Logo */}
