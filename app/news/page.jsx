@@ -23,7 +23,7 @@ export default function News() {
 
                                 {/* Timeline line */}
                                 
-                                <div className={`absolute left-0 sm:left-[40px] top-10 h-full w-1 bg-[#8fa3a3] ${
+                                <div className={` hidden lg:visible absolute left-0 sm:left-[40px] top-10 h-full w-1 bg-[#8fa3a3] ${
                                     newsData.indexOf(news) === newsData.length - 1 ? 'hidden' : ''
                                 }`} />
                                 
@@ -35,7 +35,6 @@ export default function News() {
                                         {news.category}
                                     </span>
                                     <h3 className="text-xl font-semibold mb-2 text-foreground">{news.title}</h3>
-                                    <p className="text-gray-600 mb-2">{news.description}</p>
                                     <time className="text-sm text-gray-500">{news.date}</time>
                                 </div>
                             </div>

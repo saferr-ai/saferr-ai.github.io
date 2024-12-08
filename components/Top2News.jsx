@@ -26,7 +26,6 @@ const Top2News = () => {
                                         <h2 className="text-xl font-bold text-foreground">{news.title}</h2>
                                     </div>
                                     <div className="">
-                                        <p className="text-foreground">{news.description}</p>
                                         <p className="text-sm text-foreground my-4">{news.date} {'\u00B7'} {news.category}</p>
                                         {news.href && (
                                             <a href={news.href} className="text-background bg-foreground  py-2 px-4 rounded-full mt-4 hover:underline">
