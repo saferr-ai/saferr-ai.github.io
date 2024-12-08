@@ -1,30 +1,19 @@
 export const newsData = [
     {
         id: 1,
-        date: "March 2024",
-        title: "New Research Grant Awarded",
-        description: "Our lab has received a major grant for quantum computing research.",
-        category: "Grant"
+        date: "Dec 2024",
+        title: "2 Papers accepted at NeurIPS 2024",
+        description: "Our team's research on  inference time alignment  has been accepted at NeurIPS 2024.",
+        category: "Publication",
+        href: null
     },
     {
         id: 2,
-        date: "February 2024",
-        title: "Paper Published in Nature",
-        description: "Our team's latest research on quantum entanglement has been published in Nature.",
-        category: "Publication"
+        date: "Dec 2024",
+        title: "Talk at University of Waterloo:  Tuning Free (Inference Time) Alignment of Large Language Models",
+        description: "Traditional fine-tuning of foundation models is computationally heavy, involving updates to billions of parameters. A promising alternative, alignment via decoding, adjusts the response distribution directly without model updates to maximize a target reward r, thus providing a lightweight and adaptable framework for alignment. However, principled decoding methods rely on oracle access to an optimal Q-function (Q*), which is often unavailable in practice. We propose Transfer Q*, which implicitly estimates the optimal value function for a target reward through a baseline model aligned with a baseline reward rBL (which can be different from the target reward). Our approach significantly reduces the sub-optimality gap observed in prior SoTA methods and demonstrates superior empirical performance across key metrics such as coherence, diversity, and quality in extensive tests on several synthetic and real datasets.",
+        category: "Talk",
+        href : "https://uwaterloo.ca/artificial-intelligence-institute/events/amrit-singh-bedi-tuning-free-inference-time-alignment-large"
     },
-    {
-        id: 3,
-        date: "January 2024",
-        title: "We are Hiring",
-        description: "Looking for PhD students and Postdoctoral researchers in quantum computing.",
-        category: "Recruitment"
-    },
-    {
-        id: 4,
-        date: "December 2023",
-        title: "International Conference Presentation",
-        description: "Dr. Smith presented our latest findings at QC Conference 2023.",
-        category: "Event"
-    }
+    
 ];

@@ -1,0 +1,343 @@
+[
+    {
+        "title": "FedBC: Calibrating Global and Local Models via Federated Learning Beyond Consensus",
+        "authors": [
+            "A. S. Bedi*",
+            "C. Fan*",
+            "A. Koppel",
+            "A. K. Sahu",
+            "B. M. Sadler",
+            "F. Huang",
+            "D. Manocha"
+        ],
+        "location": "May",
+        "time": " 2022.",
+        "href": "https://arxiv.org/pdf/2206.10815.pdf"
+    },
+    {
+        "title": "Convergence Rates of Average-Reward Multi-agent Reinforcement Learning via Randomized Linear Programming",
+        "authors": [
+            "A. Koppel*",
+            "A. S. Bedi*",
+            "B. Ganguly",
+            "V. Aggarwal"
+        ],
+        "location": "IEEE Transactions on Networkg",
+        "time": " Mar 2022.",
+        "href": "https://arxiv.org/search/math?searchtype=author&query=Koppel%2C+A"
+    },
+    {
+        "title": "Nonstationary Nonparametric Online Learning: Balancing Dynamic Regret and Model Parsimony",
+        "authors": [
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat",
+            "Brian M. Sadler"
+        ],
+        "location": "IEEE Transactions on Signal Processg ()",
+        "time": " Aug. 2019.",
+        "href": "https://arxiv.org/abs/1909.05442"
+    },
+    {
+        "title": "On the Sample Complexity and Metastability of Heavy-tailed Policy Search in Continuous Control",
+        "authors": [
+            "A. S. Bedi",
+            "A. Parayil",
+            "J. Zhang",
+            "M. Wang",
+            "A. Koppel"
+        ],
+        "location": "Journal of Mache Learng Research (JMLR)",
+        "time": " Jan 2024.",
+        "href": "https://arxiv.org/pdf/2106.08414.pdf"
+    },
+    {
+        "title": "Efficient Gaussian Process Bandits by Believing only Informative Actions",
+        "authors": [
+            "A. S. Bedi",
+            "D. Peddireddy",
+            "V. Aggarwal",
+            "A. Koppel"
+        ],
+        "location": "IEEE Transactions on Artificial Intelligence (TAI)",
+        "time": " Sep. 2023.",
+        "href": "https://arxiv.org/pdf/2003.10550.pdf"
+    },
+    {
+        "title": "Achieving Zero Constraint Violation for Constrained Reinforcement Learning via Primal-Dual Approach",
+        "authors": [
+            "Q. Bai",
+            "A. S. Bedi",
+            "M. Agarwal",
+            "A. Koppel",
+            "V. Aggarwal"
+        ],
+        "location": "Journal of Artificial Intelligence Research (JAIR)",
+        "time": " Nov  2023.",
+        "href": "https://arxiv.org/search/cs?searchtype=author&query=Bai%2C+Q"
+    },
+    {
+        "title": "Projection-Free Algorithm for Stochastic Bi-level Optimization",
+        "authors": [
+            "Z. Akhtar",
+            "A. S. Bedi",
+            "S. T. Thomdapu",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " Nov. 2022.",
+        "href": "https://arxiv.org/search/math?searchtype=author&query=Akhtar%2C+Z"
+    },
+    {
+        "title": "Escaping Saddle Points with the Successive Convex Approximation Algorithm",
+        "authors": [
+            "A. S. Bedi",
+            "K. Rajawat",
+            "V. Aggarwal",
+            "A. Koppel"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " Nov. 2021.",
+        "href": "https://arxiv.org/pdf/1903.01932.pdf"
+    },
+    {
+        "title": "Approximate Shannon Sampling in Importance Sampling: Nearly Consistent Finite Particle Estimates",
+        "authors": [
+            "A. Koppel*",
+            "A. S. Bedi*",
+            "B. M. Sadler",
+            "V. Elvira"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " Sep. 2021.",
+        "href": "https://arxiv.org/abs/1909.10279"
+    },
+    {
+        "title": "Cautious Reinforcement Learning via Distributional Risk in the Dual Domain",
+        "authors": [
+            "J. Zhang*",
+            "A. S. Bedi*",
+            "M. Wang",
+            "A. Koppel"
+        ],
+        "location": "IEEE Journal on Selected Areas  Information Theory (JSAIT)",
+        "time": " vol. 2  no. 2  pp. 611-626  June 2021.",
+        "href": "https://arxiv.org/pdf/2002.12475.pdf"
+    },
+    {
+        "title": "Conservative Stochastic Optimization with Expectation Constraints",
+        "authors": [
+            "Z. Akhtar",
+            "A. S. Bedi",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " vol. 69  pp. 3190-3205  May 2021.",
+        "href": "https://arxiv.org/abs/2008.05758"
+    },
+    {
+        "title": "Adaptive Kernel Learning in Heterogeneous Networks",
+        "authors": [
+            "H. Pradhan",
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal and Information Processg (TSIPN)",
+        "time": " Feb. 2021.",
+        "href": "https://arxiv.org/pdf/1908.00510.pdf"
+    },
+    {
+        "title": "Dynamic Online Learning via Frank-Wolfe Algorithm",
+        "authors": [
+            "Deepak Kalhan",
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat",
+            "H. Hassani",
+            "A. Gupta",
+            "A. Banerjee"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " Dec. 2020.",
+        "href": "https://koppel.netlify.com/assets/papers/2019_kalhan_etal.pdf"
+    },
+    {
+        "title": "Online Learning over Dynamic Graphs via Distributed Proximal Gradient Algorithm",
+        "authors": [
+            "R. Dixit",
+            "A. S. Bedi",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Aumatic Control (TAC)",
+        "time": " Nov. 2021.",
+        "href": "https://arxiv.org/abs/1905.07018"
+    },
+    {
+        "title": "Q-GADMM: Quantized Group ADMM for Communication Efficient Decentralized Machine Learning",
+        "authors": [
+            "A. Elgabli",
+            "J. Park",
+            "A. S. Bedi",
+            "Chaouki Ben Issaid",
+            "M. Bennis",
+            "V. Aggarwal"
+        ],
+        "location": "IEEE Transaction on Communications (TCOM)",
+        "time": " Sep. 2020.",
+        "href": "none"
+    },
+    {
+        "title": "Asynchronous and Parallel Distributed Pose Graph Optimization",
+        "authors": [
+            "Y. Tian",
+            "A. Koppel",
+            "A. S. Bedi",
+            "J. How"
+        ],
+        "location": "IEEE Robotics and Aumation Letters (RAL)",
+        "time": " Feb. 2020. [2020 Honorable Mention from IEEE Robotics and Aumation Letters\n]",
+        "href": "https://arxiv.org/abs/2003.03281"
+    },
+    {
+        "title": "GADMM: Fast and Communication Efficient Framework for Distributed Machine Learning",
+        "authors": [
+            "A. Elgabli",
+            "J. Park",
+            "A. S. Bedi",
+            "M. Bennis",
+            "V. Aggarwal"
+        ],
+        "location": "Journal of Mache Learng and Research (JMLR)",
+        "time": " Mar.  2020.",
+        "href": "https://arxiv.org/pdf/1909.00047.pdf"
+    },
+    {
+        "title": "Optimally Compressed Nonparametric Online Learning",
+        "authors": [
+            "A. Koppel",
+            "A. S. Bedi",
+            "K",
+            "Rajawat",
+            "B. M. Sadler"
+        ],
+        "location": "IEEE Signal Processg Magaze - Special Issue on Distributed",
+        "time": " Streamg Mache Learng (SPM)  May 2020.",
+        "href": "https://arxiv.org/pdf/1909.11555.pdf"
+    },
+    {
+        "title": "Online Trajectory Optimization Using Inexact Gradient Feedback for Time-Varying Environments",
+        "authors": [
+            "M. Krishna",
+            "A. S. Bedi",
+            "K. Rajawat",
+            "M. Coupechoux"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " July. 2020.",
+        "href": "https://arxiv.org/pdf/2001.00685.pdf"
+    },
+    {
+        "title": "Nonparametric Compositional Stochastic Optimization for Risk-Sensitive Kernel Learning",
+        "authors": [
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat",
+            "Panchajanya Sanyal"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " Dec. 2020.",
+        "href": "https://arxiv.org/pdf/1902.06011.pdf"
+    },
+    {
+        "title": "Asynchronous Online Learning in Multi-Agent Systems with Proximity Constraints",
+        "authors": [
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal and Information Processg over Networks (TSIPN)",
+        "time": " vol. 5  no. 3  pp. 479-494  Sept. 2019.",
+        "href": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8656546"
+    },
+    {
+        "title": "Online Learning with Inexact Proximal Online Gradient Descent Algorithms",
+        "authors": [
+            "R. Dixit",
+            "A. S. Bedi",
+            "R. Tripathi",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " vol. 67  no. 5  pp. 1338-1352  Mar. 2019.",
+        "href": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8598992"
+    },
+    {
+        "title": "Asynchronous Saddle Point Algorithm for Stochastic Optimization in Heterogeneous Networks",
+        "authors": [
+            "A. S. Bedi",
+            "A. Koppel",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " vol. 67  no. 7  pp. 1742-1757  Apr. 2019.",
+        "href": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8624463"
+    },
+    {
+        "title": "Asynchronous Incremental Stochastic Dual Descent Algorithm for Network Resource Allocation",
+        "authors": [
+            "A. S. Bedi",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Signal Processg (TSP)",
+        "time": " vol. 66  no. 9  pp. 2229-2244  May 1  2018.",
+        "href": "http://ieeexplore.ieee.org/document/8295129/"
+    },
+    {
+        "title": "Online Algorithms for Storage Utilization under Real-Time Pricing in Smart Grid",
+        "authors": [
+            "A. S. Bedi",
+            "P V Aditya Prasad",
+            "Md. Waseem Ahmad",
+            "Swapnil Shinde",
+            "Ketan Rajawat",
+            "Sandeep Anand"
+        ],
+        "location": "International Journal of Electrical Power and Energy Systems (JEPES)",
+        "time": " vol 101  Mar. 2018.",
+        "href": "https://www.sciencedirect.com/science/article/pii/S0142061517319919"
+    },
+    {
+        "title": "Tracking Moving Agents via Inexact Online Gradient Descent Algorithm",
+        "authors": [
+            "A. S. Bedi",
+            "P. Sarma",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Journal of Selected Topics  Signal Processg - Special issue on Mache Learng for Cognition  Radio Communications and Radar (JSTSP)",
+        "time": " vol. 12  no. 1  pp. 202-217  Feb. 2018..",
+        "href": "http://ieeexplore.ieee.org/document/8268092/"
+    },
+    {
+        "title": "Network Resource Allocation via Stochastic Subgradient Descent: Convergence Rate",
+        "authors": [
+            "A. S. Bedi",
+            "K. Rajawat"
+        ],
+        "location": "IEEE Transactions on Communications (TCOM)",
+        "time": " vol. 66  no. 5  pp. 2107-2121  May 2018.",
+        "href": "http://ieeexplore.ieee.org/document/8255626/"
+    },
+    {
+        "title": "BER-Optimized Precoders for OFDM systems with Insufficient Cyclic Prefix",
+        "authors": [
+            "A. S. Bedi",
+            "J. Akhtar",
+            "K. Rajawat",
+            "A. K. Jagannatham"
+        ],
+        "location": "IEEE Communication Letters",
+        "time": " vol. 20  no. 2  pp 280-283  Feb. 2016.",
+        "href": "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7348680"
+    }
+]

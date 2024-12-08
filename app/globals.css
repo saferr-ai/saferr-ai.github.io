@@ -2,21 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #e0e8e8;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -71,3 +57,9 @@ border-radius: 10px;
   html, body {
     height: 100dvh; /* new browsers */
   }
+
+  @layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}

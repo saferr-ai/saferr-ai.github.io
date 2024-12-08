@@ -8,17 +8,14 @@ import Link from "next/link";
 import PillarsSection from "@/components/Explain";
 export default function Hero() {
   return (
-    <div className="w-full h-full  relative p-0  box-border">
+    <div className="  relative p-0  box-border">
+
+{/* <div className="w-screen h-16 bg-slate-600"></div> */}
+
       <div className="relative  h-full z-0">
-        {/* <Image
-          src="/bg6.jpg"
-          width={3840}
-          height={2160}
-          priority
-          className="w-full h-[150%] md:h-full object-fit"
-        /> */}
+
       </div>
-      <div className="absolute top-0  left-0 w-full  flex flex-col items-start  md:items-center justify-center px-4 md:px-0">
+      <div className=" w-full  flex flex-col items-start  md:items-center justify-center px-4 md:px-0">
         <motion.h3
           className="text-foreground text-lg md:text-2xl max-w-3xl text-start md:text-center  mt-24"
           initial={{ opacity: 0, y: 20 }}
@@ -50,8 +47,8 @@ export default function Hero() {
             <ExploreButton />
           </Link>
         </motion.div>
-    <PillarsSection></PillarsSection>
       </div>
+    <PillarsSection></PillarsSection>
 
     </div>
   );

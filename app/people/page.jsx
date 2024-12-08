@@ -164,7 +164,7 @@ export default function About() {
                 </ul>
             </section>
 
-            <section className=" py-4 max-w-7xl mx-auto">
+            {/* <section className=" py-4 max-w-7xl mx-auto">
                 <h1 className="text-center text-3xl py-5 text-black">
                     Our Collaboarators
                 </h1>
@@ -202,7 +202,7 @@ export default function About() {
                         </li>
                     ))}
                 </ul>
-            </section>
+            </section> */}
 
         </div>
     )

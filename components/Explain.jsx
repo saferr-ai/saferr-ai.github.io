@@ -3,7 +3,7 @@ import { delay, motion } from "framer-motion";
 
 export default function PillarsSection() {
   return (
-    <section className="  mt-3 rounded-2xl flex flex-col justify-center items-center px-4">
+    <section className="  mt-3 rounded-2xl  flex flex-col justify-center items-center px-4">
       {/* Section Heading */}
 
       <div className="max-w-7xl mx-auto my-6">
