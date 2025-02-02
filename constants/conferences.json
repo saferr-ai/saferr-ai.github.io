@@ -1,4 +1,20 @@
 [
+
+
+    {
+        "title" : "Align-Pro: A Principled Approach to Prompt Optimization for LLM Alignment",
+        "authors" : [
+            "Prashant Trivedi",
+            "S.Chakraborty",
+            "Avinash Reddy",
+            "V. Aggarwal",
+            "George K Atia",
+            "A. S. Bedi"        
+        ],
+        "location" : "AAAI Conference on Artificial Intelligence",
+        "time" : "Philadelphia,PA. Feb 2025",
+        "href" : "https://arxiv.org/abs/2501.03486"
+    }, 
     {
         "title": "FACT or Fiction: Can Truthful Mechanisms Eliminate Federated Free Riding?",
         "authors": [
