@@ -35,7 +35,6 @@ const cardVariants = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-
 export const PublicationCard = ({ publication }) => {
     return (
         <div className="min-w-0 shrink-0 grow-0 pl-2 basis-full sm:basis-4/5 md:basis-3/5 lg:basis-[40%] md:ml-32 h-82 md:h-72">
@@ -120,7 +119,7 @@ export function Publications() {
     const top5Conferences = conferences.slice(0, 5);
     return (
         <motion.section
-            className="bg-primary-lighter p-12 max-w-7xl mx-auto "
+            className="bg-primary-lighter p-12  "
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -135,10 +134,10 @@ export function Publications() {
                 </p>
             </motion.div>
 
-            <Carousel opts={{
+            <Carousel   opts={{
                 align: "start",
             }}
-                className="w-full max-w-7xl">
+                className="w-full max-w-7xl mx-auto">
                 <CarouselContent>
                     {top5Conferences.map((publication, index) => (
                         <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-3/5" >
