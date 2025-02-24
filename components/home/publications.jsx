@@ -120,7 +120,7 @@ export function Publications() {
     const top5Conferences = conferences.slice(0, 5);
     return (
         <motion.section
-            className="bg-primary-lighter p-12 "
+            className="bg-primary-lighter p-12 max-w-7xl mx-auto "
             variants={containerVariants}
             initial="hidden"
             animate="visible"
