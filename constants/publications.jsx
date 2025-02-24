@@ -8,6 +8,7 @@ const conferences = [
             "A. Mohamed",
             "F. Huang"
         ],
+        "tags" : ["Federated Learning",  "NeurIPS", "2024"],
         "location": "Advances  Neural Information Processg Systems (NIPS)",
         "time": " Vancouver  CA  9-15 Dec.  2024.",
         "href": "https://arxiv.org/pdf/2405.13879"
@@ -22,7 +23,8 @@ const conferences = [
             "M. Wang",
             "A. S. Bedi",
             "F. Huang"
-        ],
+            ],
+        "tags" : ["LLM Alignment",  "NeurIPS", "2024"],
         "location": "Advances  Neural Information Processg Systems (NIPS)",
         "time": " Vancouver  CA  9-15 Dec.  2024.",
         "href": "https://arxiv.org/pdf/2405.20495"
@@ -34,6 +36,7 @@ const conferences = [
             "A. S. Bedi",
             "D. Manocha"
         ],
+        "tags" : ["Multi-Robot Navigation",  "ICRA", "2024"],
         "location": "International Conference on Intelligent Robots and Systems (IROS)",
         "time": " Abu Dhabi  UAE  2024.",
         "href": "none"
@@ -50,6 +53,7 @@ const conferences = [
             "P. Tokekar",
             "A. S. Bedi"
         ],
+        "tags" : ["Multi-Robot Navigation",  "ICRA", "2024"],       
         "location": "International Conference on Intelligent Robots and Systems (IROS)",
         "time": " Abu Dhabi  UAE  2024.",
         "href": "https://arxiv.org/pdf/2310.00481"
@@ -62,7 +66,8 @@ const conferences = [
             "X. Tang",
             "A. S. Bedi",
             "A. Bera"
-        ],
+            ],
+        "tags" : ["Multi-Robot Navigation",  "ICRA", "2024"],
         "location": "International Conference on Intelligent Robots and Systems (IROS)",
         "time": " Abu Dhabi  UAE  2024. [Oral]",
         "href": "none"
@@ -76,6 +81,7 @@ const conferences = [
             "V. P. Namboodiri",
             "A. S. Bedi"
         ],
+        "tags" : ["Reinforcement Learning",  "ICML", "2024"],
         "location": "International Conference on Mache Learng (ICML)",
         "time": " Vienna  Austria  July 2024.",
         "href": "https://openreview.net/pdf/486d2e3f8b1d6cd84cc050e257c70fda5c2f6980.pdf"
@@ -92,6 +98,7 @@ const conferences = [
             "A. S. Bedi",
             "M. Wang"
         ],
+        "tags" : ["Reinforcement Learning",  "ICML", "2024"],
         "location": "International Conference on Mache Learng (ICML)",
         "time": " Vienna  Austria  July 2024.",
         "href": "https://arxiv.org/pdf/2402.08925"
@@ -107,6 +114,7 @@ const conferences = [
             "D. Manocha",
             "F. Huang"
         ],
+        "tags" : ["LLM Alignment",  "ICML", "2024"],
         "location": "International Conference on Mache Learng (ICML)",
         "time": " Vienna  Austria  July 2024.",
         "href": "https://arxiv.org/pdf/2304.04736"
@@ -122,6 +130,7 @@ const conferences = [
             "M. Wang",
             "F. Huang"
         ],
+        "tags" : ["Reinforcement Learning",  "ICLR", "2024"],
         "location": "International Conference on Learng Representations (ICLR)",
         "time": " Vienna  Austria  May 2024.",
         "href": "https://arxiv.org/pdf/2308.02585.pdf"
@@ -136,6 +145,7 @@ const conferences = [
             "F. Huang",
             "D. Manocha"
         ],
+        "tags" : ["Reinforcement Learning",  "ICML", "2024"],
         "location": "International Conference on Mache Learng (ICML)",
         "time": " Honolulu  Hawai  USA  July 2023.",
         "href": "https://arxiv.org/pdf/2301.12038.pdf"
@@ -150,6 +160,7 @@ const conferences = [
             "A. Koppel",
             "D. Manocha"
         ],
+        "tags" : ["Reinforcement Learning",  "ICML", "2024"],
         "location": "International Conference on Mache Learng (ICML)",
         "time": " Honolulu  Hawai  USA  July 2023.",
         "href": "https://arxiv.org/pdf/2301.12083.pdf"
@@ -163,6 +174,7 @@ const conferences = [
             "A. S. Bedi",
             "F. Huang"
         ],
+        "tags" : ["Federated Learning",  "ICLR", "2023"],
         "location": "International Conference on Learng Representations (ICLR)",
         "time": " Kigali  Rwanda  May 2023.",
         "href": "https://openreview.net/pdf?id=jh1nCir1R3d"
@@ -177,7 +189,8 @@ const conferences = [
             "A. Koppel",
             "P. Tokekar",
             "D. Manocha"
-        ],
+            ],  
+        "tags" : ["Reinforcement Learning",  "ICRA", "2023"],
         "location": "International Conference on Robotics (ICRA)",
         "time": " London  UK  May 2023.",
         "href": "https://arxiv.org/search/cs?searchtype=author&query=Bedi%2C+A+S"
@@ -188,7 +201,8 @@ const conferences = [
             "A. Aggarwal",
             "A. S. Bedi",
             "D. Manocha"
-        ],
+            ],
+                "tags" : ["Reinforcement Learning",  "ICRA", "2023"],
         "location": "International Conference on Robotics (ICRA)",
         "time": " London  UK  May 2023.",
         "href": "https://arxiv.org/search/cs?searchtype=author&query=Bedi%2C+A+S"

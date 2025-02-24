@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import {Navbar} from "@/components/Navbar";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import Link from "next/link";
 const geistSans = localFont({
@@ -24,9 +25,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background `}
-      > 
-        <Navbar/>
-        {children}
+      >
+        <Navbar />
+        <main className=" rounded-b-3xl lg:rounded-b-[4rem] overflow-hidden">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
