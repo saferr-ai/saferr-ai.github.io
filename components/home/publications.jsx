@@ -38,7 +38,7 @@ const cardVariants = {
 
 export const PublicationCard = ({ publication }) => {
     return (
-        <div className="min-w-0 shrink-0 grow-0 pl-2 basis-full sm:basis-4/5 md:basis-3/5 lg:basis-[40%] md:ml-32 h-96 md:h-72">
+        <div className="min-w-0 shrink-0 grow-0 pl-2 basis-full sm:basis-4/5 md:basis-3/5 lg:basis-[40%] md:ml-32 h-82 md:h-72">
             <div className="text-neutral-950 shadow-sm dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 rounded-2xl border border-gray-300 h-full overflow-hidden bg-white">
                 <div className=" py-8 px-6 md:px-10 h-full flex flex-col justify-between">
                     <div className="space-y-4 md:space-y-2 overflow-hidden">
